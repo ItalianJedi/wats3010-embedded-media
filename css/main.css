@@ -5,10 +5,25 @@
  * Site Styles
  *****************************************************************************/
 
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+
  aside#social {
-    background: lime;
+    background: rgba(226,240,95,0.6);
     width: 200px;
-    height: auto;S
+    height: auto;
     position: fixed;
     top: 50px;
     right: 20px;
@@ -30,15 +45,20 @@
  
  header {
     height: 300px;
-    background: url(../img/monkaa_bluemonkey.jpg);
+    background: url(../img/monkaa_monkeyhang.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 20px 20px 20px;
  }
  
+
+ .subtitle {
+     text-align: left;
+ }
+ 
 footer {
-    background: gray;
+    background: url(../media/video/loop_poster.png);
 }
 
 section {
@@ -48,14 +68,51 @@ section {
     padding-right: 10px;
 }
 
+/* Video Section */
+
 section#watch {
-    background: yellow;
+    background: #041C24;
+    color: white
 }
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+h3  {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* About Section */
 
 section#about {
-    background: cornflowerblue;
+    background: black;
+    color: white;
 }
 
+.lead {
+    text-align: center;
+}
+
+.headshot {
+    padding: 5px;
+    width: 200px;
+    border: 5px solid white;
+}
+
+/* Audio Section */
+
 section#listen {
-    background: purple;
+    background: #3B474F;
+    color: white;
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
 }
