@@ -100,11 +100,17 @@ section#about {
     text-align: center;
 }
 
-.headshot {
-    padding: 5px;
-    width: 200px;
-    border: 5px solid white;
+.image-weybec {
+    width: 33.3%;
+    float: left;
+    margin-bottom: 10px;
 }
+
+.headshot {
+    width: 300px;
+    border: white 5px solid;
+}
+
 
 /* Audio Section */
 
