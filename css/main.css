@@ -23,7 +23,7 @@ nav ul li {
 
  aside#social {
     background: rgba(226,240,95,0.5);
-    width: 200px;
+    width: 150px;
     height: auto;
     position: fixed;
     top: 50px;
@@ -82,6 +82,11 @@ p {
  
 footer {
     background: url(../media/video/loop_poster.png);
+    background-size: stretch;
+}
+
+.main-nav-bottom {
+    text-align: center;
 }
 
 section {
@@ -107,6 +112,11 @@ h3  {
     text-align: center;
 }
 
+.download-button {
+    width: 150px;
+    background: #0C4254;
+    color: white;
+}
 
 /* About Section */
 
@@ -115,8 +125,10 @@ section#about {
     color: white;
 }
 
+
 .lead {
     text-align: center;
+    color: #DBC304;
 }
 
 
